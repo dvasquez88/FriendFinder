@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friendfinder",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvasquez88/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder"
+  ],
+  "author": "DV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvasquez88/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/dvasquez88/FriendFinder#readme"
+}
