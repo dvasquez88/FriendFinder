@@ -14,7 +14,19 @@ app.use(express.json());
 
 
 
-// Star Wars Characters (DATA)
-// =============================================================
 
 
+// These routes give our server a "map" of how to respond when users visit or request data from various URLs.
+require("./routing/apiRoutes.js")(app);
+require("./routing/htmlRoutes.js")(app);
+
+
+
+// LISTENER
+// The below code effectively "starts" our server
+// =============================================================================
+
+app.listen(PORT, function() {
+    console.log("App listening on PORT: " + PORT);
+  });
+  
