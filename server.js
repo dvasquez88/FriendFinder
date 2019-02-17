@@ -6,7 +6,7 @@ var path = require("path");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = 3000;
+var PORT = 8080;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -15,11 +15,9 @@ app.use(express.json());
 
 
 
-
-
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
-//require("./routing/apiRoutes.js")(app);
-//require("./routing/htmlRoutes.js")(app);
+require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/htmlRoutes.js")(app);
 
 
 
